@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Python cache files
+__pycache__/
+
+# Dircectories to ignore
+dokumenti/
+drive_japelj/
+end_info/
+images_with_arrows/
+one_of_each/
+Prijava/
+prva_analiza/
+slike/
+source_code/data/
+source_code/output/
+source_code/output_safety_copy/
