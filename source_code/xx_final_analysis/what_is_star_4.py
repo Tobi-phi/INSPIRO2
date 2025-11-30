@@ -6,6 +6,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 import pandas as pd
 
+### This file performs final analysis for Star 4 and compares it with other variable star types - on HR and Luminosity-Period diagrams, and overlays their spectra
+
 class VariableStarType:
     def __init__(self, name, type, period, temperature, bp_rp, j_k, j_h, w1_w2, w2_w3, w3_w4):
         self.name = name
@@ -18,7 +20,6 @@ class VariableStarType:
         self.w1_w2 = w1_w2
         self.w2_w3 = w2_w3
         self.w3_w4 = w3_w4
-
 
 
 def star_4():

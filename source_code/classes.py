@@ -4,6 +4,8 @@ from pathlib import Path
 
 data_dir = Path(__file__).parent / 'data'
 
+### This file defines some variable star classes for use in this project
+
 # Define a class to hold variable star information
 class VariableStar:
     def __init__(self, star, id, name, gaia_name, variable, variable_type, ra, dec, filters, paths):

@@ -4,6 +4,7 @@ import json
 
 from get_extra_stuff import get_visual, output_path, jd_start_default
 
+### Function to plot light curves for a star over the full time interval
 
 def plot_light_curve_full_time_interval(date_arr, mag_arr, mag_err_arr, filters, star, jd_start=jd_start_default):
     visual = get_visual()

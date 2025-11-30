@@ -8,6 +8,8 @@ from get_star_info import get_star_info, get_all_star_info
 from get_extra_stuff import data_path, output_path, jd_start_default
 import plots
 
+### This plots the light curve for my own GOChile data for given stars
+
 # Function to rename data files
 def rename_data():
     for file in data_path.iterdir():

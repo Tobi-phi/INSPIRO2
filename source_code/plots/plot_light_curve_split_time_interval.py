@@ -5,6 +5,8 @@ import json
 
 from get_extra_stuff import get_visual, output_path
 
+### Function to plot light curves for a star by splitting the time interval - unused function
+
 def plot_light_curve_split_time_interval(date_arr, mag_arr, mag_err_arr, filters, star):
     visual = get_visual()
     plt.figure(figsize=(10,5))

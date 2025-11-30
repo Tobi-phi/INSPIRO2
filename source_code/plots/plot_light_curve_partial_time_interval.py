@@ -5,6 +5,8 @@ from brokenaxes import brokenaxes
 
 from get_extra_stuff import get_visual, output_path, jd_start_default
 
+### Function to plot light curves for a star over partial time intervals
+
 splits = {
     1: [(4.525, 4.86), (6.65, 6.875)],
     2: [(), ()],

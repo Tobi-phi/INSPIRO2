@@ -4,6 +4,7 @@ from astropy.time import Time
 from astropy.coordinates import SkyCoord, EarthLocation
 import astropy.units as u
 
+### File to extract data from ASASSN and Gaia surveys
 
 def get_data_assasn(star):
     df = pd.read_csv(star.asassn_data_path, sep=',')

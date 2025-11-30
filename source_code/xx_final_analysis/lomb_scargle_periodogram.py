@@ -14,6 +14,8 @@ from get_data_surveys import get_data_assasn, get_data_gaia
 sys.path.append(str(Path(__file__).resolve().parent.parent)) 
 from classes import star4, star9, star10, star12, star13, star14
 
+### This file performs Lomb-Scargle periodogram analysis and plots the phase folded light curves
+
 # Define paths
 data_dir = Path(__file__).parent.parent / 'data'
 asassn_dir = data_dir / 'asassn_data'

@@ -6,6 +6,8 @@ import sys
 
 from get_data_surveys import get_data_assasn, get_data_gaia
 
+### This file plots light curves from different data sources for given stars
+
 # Define paths
 data_dir = Path(__file__).parent.parent / 'data'
 asassn_dir = data_dir / 'asassn_data'

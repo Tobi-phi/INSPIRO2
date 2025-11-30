@@ -10,6 +10,8 @@ from lomb_scargle_periodogram import compute_lomb_scargle
 sys.path.append(str(Path(__file__).resolve().parent.parent)) 
 from classes import star4, star9, star10, star12, star13, star14
 
+### This file plots the star's location on the luminosity-period diagram
+
 # apparent magnitude should be the average magnitude from light curves
 # distance in parsecs from Vizier
 # take extinction into account
@@ -208,11 +210,7 @@ def draw_onto_luminosity_period_diagram(star, img_path=Path(__file__).parent.par
     #             subsampling=0,
     #             optimize=True)
 
-
-def draw_onto_HR_diagram(star, img_path=Path(__file__).parent.parent / 'output' / 'HR_diagram' / 'empty.jpg'):
-    pass
     
-draw_onto_luminosity_period_diagram(star4)
-
+# draw_onto_luminosity_period_diagram(star4)
 # draw_onto_luminosity_period_diagram(star9)
 

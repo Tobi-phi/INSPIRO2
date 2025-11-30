@@ -3,6 +3,7 @@ from pathlib import Path
 
 from classes import VariableStar
 
+### This file provides functions to get variable star information from a .csv file
 
 # Function to get all information for all stars
 def get_all_star_info():

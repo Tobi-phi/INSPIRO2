@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+### This file provides extra utility functions and constants for the project
+
 # Function to get visualization parameters from visual.json
 def get_visual():
     visual_path = Path(__file__).parent / 'visual.json'
